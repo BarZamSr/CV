@@ -1,0 +1,116 @@
+%---------------------------------------------------
+%                     Work Resume
+%---------------------------------------------------
+\documentclass[11pt,a4paper]{moderncv}
+%---------------------------------------------------
+%                     preamble
+%---------------------------------------------------
+% \moderncvstyle{oldstyle}
+% \moderncvstyle{classic}
+% \moderncvstyle{casual}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[scale=0.85]{geometry}
+
+% url color
+\usepackage{xcolor,colortbl}
+\definecolor{urlblue}{rgb}{0,0,0.90}
+
+% personal data
+\name{Bardia}{Zamani Abnili}
+% \title{Software Engineer}
+\address{Melbourne}{VIC}
+\phone[mobile]{0468-820-179}
+\email{zamani.career@gmail.com}
+\homepage{barzamsr.github.io}
+\social[linkedin]{zamani}
+\social[github]{BarZamSr}
+
+
+%---------------------------------------------------
+%                   Start Document
+%---------------------------------------------------
+\begin{document}
+\makecvtitle{}
+
+%---------------------------------------------------
+%                     Profile
+%---------------------------------------------------
+\section{Profile}
+Recent graduate with a year of internship experience, seeking to start a career in data science.
+Graduated with a Bachelors of Science from the University of Melbourne in July of 2022, majoring
+in Computing and Software Systems.
+Interned for a year with the Digital Twin (DT) research team in CSDILA, and delivered several
+pieces of software complete with testing and documentation.
+Details-oriented analytical and strategic thinker, and a creative problem solver.
+%---------------------------------------------------
+%                   Education
+%---------------------------------------------------
+\section{Education}
+  \cventry{}{
+  Majored in Computing and Software Systems, minored in Psychology
+  }{B.Sc. from University of Melbourne}{\emph{2017--2022}}{}{}
+
+
+%---------------------------------------------------
+%                   Work Experience
+%---------------------------------------------------
+\section{Work Experience}
+\cventry{}{Student Internship}{CSDILA}{\emph{2020--2021}}{}
+{
+  \begin{itemize}
+    \item Refactored a heavy server-side Python script handling a data format conversion, which ultimately enabled the Digital Twin to display building models exported from design applications such as Revit.
+    \item Integrated a large and complex building model from Revit into the digital twin, including accurate geolocation and scaling, and testing the limits of the new data format conversion program.
+    \item Designed and developed a program to generate custom geometry in an IFC file format as part of an investigation into building information models.
+  \end{itemize}
+}
+
+\cventry{}{Internship}{Private Tutoring}{\emph{2019--2020}}{}
+{
+Taught several tertiary-level subjects including programming, mathematics, and physics.
+}
+
+
+\cventry{}{Internship}{Fantastic Services Australia}{\emph{2018--2019}}{}
+{
+}
+
+%---------------------------------------------------
+%                 Skills and Tools
+%---------------------------------------------------
+\section{Core Skills}
+\cvitem{}{
+\setlength\dashlinedash{0.5pt}
+\setlength\dashlinegap{1.5pt}
+\setlength\arrayrulewidth{0.5pt}
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} ll}
+% \textbf{Category} & \textbf{Skill} \\ \hline
+Development languages             & Python, JavaScript, Bash \\
+Operating Systems                 & GNU/Linux, Windows \\
+Databases                         & PostgreSQL \\
+Data Cleansing                    & Convert file fromat \\
+Numeric 
+Software Development Methodology  & SCRUM \\
+\end{tabular*}
+}
+
+%---------------------------------------------------
+%                   Certificates
+%---------------------------------------------------
+\section{Certificates and Attended Courses}
+\cventry{}
+  {UCDavis, Coursera}
+  {Fundamentals of Visualization}
+  {\httplink[\textcolor{urlblue}{\emph{Certificate}}]{https://www.coursera.org/}}
+  {}
+  {}
+
+
+
+\section{References}
+References are available upon request.
+
+\end{document}
